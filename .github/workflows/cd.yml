@@ -25,4 +25,4 @@ jobs:
         uses: google-github-actions/setup-gcloud@v2
 
       - name: Build and push Docker Image to GAR
-        run: gclouds builds submit --tag us-central1-docker.pkg.dev/brave-drummer-452321-b5/notely-ar-repo/notely:latest .
+        run: gcloud builds submit --tag us-central1-docker.pkg.dev/brave-drummer-452321-b5/notely-ar-repo/notely:latest .
